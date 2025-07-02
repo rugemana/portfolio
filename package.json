@@ -21,6 +21,7 @@
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
     "@types/node": "^24.0.10",
+    "@types/react": "^19.1.8",
     "autoprefixer": "^10.4.21",
     "drizzle-kit": "0.20.10",
     "postcss": "^8.5.6",
