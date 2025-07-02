@@ -4,8 +4,11 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 export default {
-  schema: "./db/schema.ts",
+  schema: "./lib/schema.ts",
   out: "./drizzle",
   dialect: "postgresql",
-  dbCredentials: process.env.DATABASE_URL!,
+  dbCredentials: {
+    wranglerConfigPath: "./wrangler.toml",
+    dbName: "postgres",
+  },
 } satisfies Config;
