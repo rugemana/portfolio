@@ -8,7 +8,6 @@ export default {
   out: "./drizzle",
   dialect: "postgresql",
   dbCredentials: {
-    wranglerConfigPath: "./wrangler.toml",
-    dbName: "postgres",
+    connectionString: process.env.DATABASE_URL!,
   },
 } satisfies Config;
