@@ -1,14 +1,1 @@
-{
-  "node": {
-    "03e2a877c1d292fed39a8eccad6e80f5fd7e4900": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchristian%5C%5CDownloads%5C%5Cnextjs-drizzle-starter%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22createProject%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/page": "action-browser"
-      }
-    }
-  },
-  "edge": {},
-  "encryptionKey": "yqPhVjoL7BtUgeiWLORZ3zDrTc71d+JZo0QPC38ZVTQ="
-}
+{"node":{"03e2a877c1d292fed39a8eccad6e80f5fd7e4900":{"workers":{"app/page":"3410"},"layer":{"app/page":"rsc"}}},"edge":{},"encryptionKey":"QzPNTahUhPjeobwwzs9BTzoqw637bg05d0VB8G4keyk="}
